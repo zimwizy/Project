@@ -1,0 +1,361 @@
+header {
+    margin-top: 20px;
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+}
+
+.nav a {
+    color: black;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+.nav .btn {
+    margin-right: 20px;
+    border-radius: 40px;
+    width: 200px;
+    font-weight: 600;
+}
+
+.logo p {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.nav {
+    margin: 20px;
+}
+
+.img1 img {
+    width: 100%px;
+    height: 80%px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.cover {
+    display: flex;
+    background-image: url(rus2.svg);
+    background-size: 100% 100%;
+    margin-top: 6%;
+    background-repeat: no-repeat;
+}
+
+.secondline {
+    display: flex;
+}
+
+.firstline {
+    display: flex;
+}
+
+.container {
+    margin: auto;
+}
+
+.btn {
+    border-radius: 100px;
+    font-weight: 600;
+}
+
+#btn1 {
+    width: 230px;
+    color: rgba(163, 213, 98, 1);
+    border-color: rgba(163, 213, 98, 1);
+    color: white;
+}
+
+#btn2 {
+    width: 120px;
+    color: rgba(163, 213, 98, 1);
+    border-color: rgba(163, 213, 98, 1);
+    color: white;
+
+}
+
+#btn5 {
+    width: 65px;
+    background-color: rgba(163, 213, 98, 1);
+    color: black;
+}
+
+#btn3 {
+    width: 150px;
+    background-color: rgba(163, 213, 98, 1);
+    color: black;
+
+}
+
+#btn4 {
+    width: 120px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .output input {
+        width:100%;
+    }
+    .element2 {
+        margin-left: 0px !important;
+    }
+}
+
+.cont1 {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(6, 5, 5, 0.38);
+    border-radius: 20px;
+}
+
+.output {
+    padding: 30px;
+}
+
+.output input {
+    border-radius: 50px;
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+
+.output p {
+    color: white;
+}
+
+.firstline {
+    margin-bottom: 10px;
+}
+
+.thirdline {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.inside {
+    width: 100%;
+    padding: 5%;
+    z-index: 1;
+    top: 40%;
+    left: 20%;
+}
+
+.rest {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.element1 p {
+    font-weight: 700;
+    color: rgba(30, 30, 30, 0.58);
+}
+
+.element3 .btn {
+    border-color: black;
+}
+
+#switch {
+    width: 300px;
+}
+
+.element2 {
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.cont2 {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.product {
+    display: flex;
+    margin: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.clo-3 img {
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.bg {
+    width: 250px;
+    height: 200px;
+    background: rgba(245, 245, 247, 1);
+    margin-left: 20px;
+    line-height: -20px;
+}
+
+.bg {
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.bg span {
+    color: grey;
+    font-size: 10px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 113px;
+    margin-top: 30px;
+}
+
+.pagination li a {
+    color: black;
+    border: 0px;
+    border-radius: 0px !important;
+    font-weight: 600;
+}
+
+.pagination li span {
+    border: 0;
+}
+
+.pages p {
+    margin-left: 90px;
+    font-weight: 600;
+}
+
+.maps {
+    margin-top: 15px;
+    margin-left: 100px;
+    display: none;
+    padding-bottom: 40px;
+}
+
+footer {
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+footer .foot {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+.f1 ul {
+    color: white;
+    font-weight: 600;
+    list-style: none;
+}
+
+.f1 ul li a {
+    color: white;
+}
+
+.f2 p {
+    color: white;
+    font-weight: 600;
+}
+
+.f3 p {
+    color: white;
+    font-weight: 600;
+}
+
+.f3 p span {
+    color: rgba(115, 115, 115, 1);
+    font-size: 14px;
+}
+
+.f2 p span {
+    color: rgba(115, 115, 115, 1);
+    font-size: 14px;
+
+}
+
+.f4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 80px;
+    color: rgba(115, 115, 115, 1);
+}
+
+.costum-control label {
+    background-color: black;
+}
+
+.prod img {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    margin-left: 40%;
+    margin-top: 7%;
+}
+
+.tog {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+.buta {
+    position: absolute;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    transition: all ease 0.5s;
+    left: 0%;
+    background-color: yellowgreen;
+    top: 0;
+}
+
+.map3 {
+    position: relative;
+}
+
+#imap1 {
+    position: absolute;
+    visibility: hidden;
+}
+
+#imap2 {
+    width: 45%;
+    height: 45%;
+    margin: 3%
+}
+
+#img10 {
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    margin: 6%;
+}
+
+#img20 {
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    margin: 10%;
+    display: none;
+}

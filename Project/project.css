@@ -49,7 +49,7 @@ header .nav {
 .cover {
     display: flex;
     background-image: url(rus2.svg);
-    background-size: 100% 100%;
+    background-size: cover;
     margin-top: 6%;
     background-repeat: no-repeat;
 }
